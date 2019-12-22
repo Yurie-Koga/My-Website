@@ -1,13 +1,25 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function BlogPage() {
   return (
     <div className="container">
-      <h1>Blog Page</h1>
       <p>
-        <Link to="/taniarascia">taniarascia</Link> on GitHub.
+        In this example we have turned off parallax scrolling for mobile
+        devices. It works as expected on all desktop screens sizes.
       </p>
+      <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+      <div class="parallax"></div>
+
+      <div
+        style={{ height: "500px", backgroundColor: "white", fontSize: "36px" }}
+      >
+        This div is just here to enable scrolling. Tip: Try to remove the
+        background-attachment property to remove the scrolling effect.
+      </div>
+
+      <div class="parallax"></div>
     </div>
   );
 }
