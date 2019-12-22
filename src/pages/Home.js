@@ -6,7 +6,7 @@ export default function HomePage() {
       <div class="image">
         <div class="text">
           <h1 style={{ fontSize: "50px" }}>I am Yurie Koga</h1>
-          <p>And I'm a Software Developer</p>
+          <p>Energetic Software Developer</p>
 
           {/* <a href="https://github.com/ricsoft" target="_blank">
             <i class="fab fa-instagram icons"></i>
