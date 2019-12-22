@@ -205,17 +205,19 @@ html {
 .coverImage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://picsum.photos/1000");
-  height: 300px;
+  height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* margin: 0px; */
+  padding: 0px;
 }
 
 .coverText {
   text-align: center;
-  position: relative;
-  top: 50%;
+  position: absolute;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;

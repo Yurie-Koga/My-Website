@@ -12,6 +12,7 @@ export default function ContactPage() {
       </div>
 
       <div class="coverImage">
+        {/* <div class="coverText">Contact</div> */}
         <div class="coverText">
           <h1>Contact</h1>
           <p>If you have questions, I have answers.</p>
