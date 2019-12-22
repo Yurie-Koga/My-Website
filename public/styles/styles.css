@@ -12,6 +12,7 @@ html {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  z-index: 9999; /* show bar front every time */
 }
 
 .topnav a {
@@ -53,7 +54,7 @@ html {
   color: white;
 }
 
-.text button {
+/* .text button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -67,7 +68,7 @@ html {
 .text button:hover {
   background-color: #555;
   color: white;
-}
+} */
 
 .icons {
   font-size: 2.2em;
@@ -97,43 +98,47 @@ html {
 }
 
 .flip-card-inner {
-  backface-visibility: hidden;
   position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
-  color: white;
-  transition: transform 0.6s;
+  transition: transform 0.8s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  backface-visibility: hidden;
 }
 
 .flip-card:hover .flip-card-inner {
-  /* backface-visibility: hidden; */
   transform: rotateY(180deg);
 }
 
 .flip-card-front,
 .flip-card-back {
-  backface-visibility: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
+  backface-visibility: hidden;
 }
 
 .flip-card-front {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://picsum.photos/300");
-  width: 300px;
-  height: 300px;
   background-color: #bbb;
-  /* color: white; */
 }
 
 .flip-card-back {
   background-color: #2980b9;
-  /* color: white; */
   transform: rotateY(180deg);
+}
+
+/* Projects */
+.project {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  float: left;
+  border: 1px solid gray;
 }
 
 /* BlogPage */

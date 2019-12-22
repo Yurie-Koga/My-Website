@@ -32,11 +32,7 @@ export default function HomePage() {
               <div class="text">
                 <h1>LANGUAGES</h1>
               </div>
-              {/* <img
-              src="https://picsum.photos/300"
-              alt="Avatar"
-              style={{ width: "300px", height: "300px" }}
-            ></img> */}
+              {/* <img src="https://picsum.photos/300"></img> */}
             </div>
 
             <div class="flip-card-back">
@@ -108,6 +104,31 @@ export default function HomePage() {
                 <p>SQL Server Management Studio</p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <p style={{ textAlign: "center" }}>CONTRIBUTED PROJECTS</p>
+
+      <div class="content">
+        <div class="project">
+          <div class="test">
+            <h1>Project1</h1>
+            <p>bla bla bla</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="test">
+            <h1>Project2</h1>
+            <p>bla bla bla</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="test">
+            <h1>Project3</h1>
+            <p>bla bla bla</p>
           </div>
         </div>
       </div>

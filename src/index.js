@@ -9,11 +9,11 @@ render(
       <a class="active" href="/">
         Home
       </a>
-      {/* <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a> */}
       <a href="/blog">Blog</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
     </div>
+
     <App />
     <footer class="footer">
       <a>Footer</a>
