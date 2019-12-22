@@ -23,115 +23,123 @@ export default function HomePage() {
         </div>
       </div>
 
-      <p style={{ textAlign: "center" }}>ABOUT ME</p>
+      <section>
+        <div class="contentTitle">
+          <h1>ABOUT ME</h1>
+        </div>
 
-      <div class="content">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="text">
-                <h1>LANGUAGES</h1>
+        <div class="content">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="text">
+                  <h1>LANGUAGES</h1>
+                </div>
+                {/* <img src="https://picsum.photos/300"></img> */}
               </div>
-              {/* <img src="https://picsum.photos/300"></img> */}
-            </div>
 
-            <div class="flip-card-back">
-              <div class="text">
-                <h1>LANGUAGES</h1>
-                <p>C#</p>
-                <p>JavaScript</p>
-                <p>Java</p>
-                <p>Python</p>
-                <p>VB.NET</p>
-                <p>VBScript</p>
+              <div class="flip-card-back">
+                <div class="text">
+                  <h1>LANGUAGES</h1>
+                  <p>C#</p>
+                  <p>JavaScript</p>
+                  <p>Java</p>
+                  <p>Python</p>
+                  <p>VB.NET</p>
+                  <p>VBScript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="text">
+                  <h1>FRAMEWORKS</h1>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="text">
+                  <h1>FRAMEWORKS</h1>
+                  <p>.NET</p>
+                  <p>ASP</p>
+                  <p>React</p>
+                  <p>Node.js</p>
+                  <p>Jest</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="text">
+                  <h1>DATABASES</h1>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="text">
+                  <h1>DATABASES</h1>
+                  <p>Oracle</p>
+                  <p>SQL Server</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="text">
+                  <h1>TECHNOLOGIES</h1>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div class="text">
+                  <h1>TECHNOLOGIES</h1>
+                  <p>Visual Studio</p>
+                  <p>AWS (Amazon Web Services)</p>
+                  <p>Cypress</p>
+                  <p>Docker</p>
+                  <p>Oracle Enterprise Manager</p>
+                  <p>SQL Server Management Studio</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="text">
-                <h1>FRAMEWORKS</h1>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <div class="text">
-                <h1>FRAMEWORKS</h1>
-                <p>.NET</p>
-                <p>ASP</p>
-                <p>React</p>
-                <p>Node.js</p>
-                <p>Jest</p>
-              </div>
-            </div>
-          </div>
+      <section>
+        <div class="contentTitle">
+          <h1>CONTRIBUTED PROJECTS</h1>
         </div>
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="text">
-                <h1>DATABASES</h1>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <div class="text">
-                <h1>DATABASES</h1>
-                <p>Oracle</p>
-                <p>SQL Server</p>
-              </div>
-            </div>
+        <div class="content">
+          <div class="project">
+            <article>
+              <h1>Project1</h1>
+              <p>bla bla bla</p>
+            </article>
+          </div>
+
+          <div class="project">
+            <article>
+              <h1>Project2</h1>
+              <p>bla bla bla</p>
+            </article>
+          </div>
+
+          <div class="project">
+            <article>
+              <h1>Project3</h1>
+              <p>bla bla bla</p>
+            </article>
           </div>
         </div>
-
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="text">
-                <h1>TECHNOLOGIES</h1>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <div class="text">
-                <h1>TECHNOLOGIES</h1>
-                <p>Visual Studio</p>
-                <p>AWS (Amazon Web Services)</p>
-                <p>Cypress</p>
-                <p>Docker</p>
-                <p>Oracle Enterprise Manager</p>
-                <p>SQL Server Management Studio</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <p style={{ textAlign: "center" }}>CONTRIBUTED PROJECTS</p>
-
-      <div class="content">
-        <div class="project">
-          <div class="test">
-            <h1>Project1</h1>
-            <p>bla bla bla</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="test">
-            <h1>Project2</h1>
-            <p>bla bla bla</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="test">
-            <h1>Project3</h1>
-            <p>bla bla bla</p>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
   );
 }
