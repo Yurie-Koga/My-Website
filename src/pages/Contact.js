@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 export default function ContactPage() {
   return (
@@ -12,7 +12,6 @@ export default function ContactPage() {
       </div>
 
       <div class="coverImage">
-        {/* <div class="coverText">Contact</div> */}
         <div class="coverText">
           <h1>Contact</h1>
           <p>If you have questions, I have answers.</p>
@@ -20,10 +19,15 @@ export default function ContactPage() {
           <a
             href="https://www.linkedin.com/in/yurie-koga-977700188/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i class="fab fa-linkedin icons"></i>
           </a>
-          <a href="https://github.com/Yurie-Koga" target="_blank">
+          <a
+            href="https://github.com/Yurie-Koga"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fab fa-github icons"></i>
           </a>
         </div>

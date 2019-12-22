@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 export default function HomePage() {
   return (
@@ -14,10 +14,15 @@ export default function HomePage() {
           <a
             href="https://www.linkedin.com/in/yurie-koga-977700188/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i class="fab fa-linkedin icons"></i>
           </a>
-          <a href="https://github.com/Yurie-Koga" target="_blank">
+          <a
+            href="https://github.com/Yurie-Koga"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fab fa-github icons"></i>
           </a>
         </div>
