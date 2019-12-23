@@ -1,6 +1,12 @@
 import React from "react";
+import IconLink from "../components/IconLink";
 
 export default function HomePage() {
+  const LinkedIn = {
+    url: "https://www.linkedin.com/in/yurie-koga-977700188/",
+    icon: "fab fa-linkedin icons"
+  };
+
   return (
     <div className="container">
       <div class="image">
@@ -8,16 +14,8 @@ export default function HomePage() {
           <h1 style={{ fontSize: "50px" }}>I am Yurie Koga</h1>
           <p>Energetic Software Developer</p>
 
-          {/* <a href="https://github.com/ricsoft" target="_blank">
-            <i class="fab fa-instagram icons"></i>
-          </a> */}
-          <a
-            href="https://www.linkedin.com/in/yurie-koga-977700188/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fab fa-linkedin icons"></i>
-          </a>
+          <IconLink x={LinkedIn} />
+
           <a
             href="https://github.com/Yurie-Koga"
             target="_blank"
