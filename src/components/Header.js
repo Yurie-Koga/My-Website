@@ -114,7 +114,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function App() {
+export default function Header() {
   return (
     <header class="header">
       <nav class="topnav" activeClassName="active">
