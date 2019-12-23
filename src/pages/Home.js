@@ -37,22 +37,18 @@ export default function HomePage() {
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <div class="text">
-                  <h1>LANGUAGES</h1>
-                </div>
+                <h1>LANGUAGES</h1>
                 {/* <img src="https://picsum.photos/300"></img> */}
               </div>
 
               <div class="flip-card-back">
-                <div class="text">
-                  <h1>LANGUAGES</h1>
-                  <p>C#</p>
-                  <p>JavaScript</p>
-                  <p>Java</p>
-                  <p>Python</p>
-                  <p>VB.NET</p>
-                  <p>VBScript</p>
-                </div>
+                <h1>LANGUAGES</h1>
+                <p>C#</p>
+                <p>JavaScript</p>
+                <p>Java</p>
+                <p>Python</p>
+                <p>VB.NET</p>
+                <p>VBScript</p>
               </div>
             </div>
           </div>
