@@ -4,7 +4,7 @@ export default function ContactPage() {
   return (
     <div className="container">
       <div class="parallax">
-        <div class="text">
+        <div class="text text-contact">
           <h1>Thank you for visiting!</h1>
           <h1>Did you enjoy my website?</h1>
           <p>I would love to hear from you!</p>
