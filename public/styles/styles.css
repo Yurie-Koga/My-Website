@@ -26,7 +26,7 @@ html {
 
 /* Don't change name of "active" */
 .active {
-  background-color: #4caf50;
+  background-color: #209cee;
   color: white;
 }
 
@@ -85,25 +85,26 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: white;
+  /* cause horizontal scroll */
+  /* white-space: nowrap; */
+  /* too much extra space */
+  /* display: inline-block;   */
 }
-
-/* .text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
+.toptext {
+  /* text-align: center; */
+  /* margin-right: 5px;
+  margin-left: 5px; */
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  /* -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); */
+  /* -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
-
-.text button:hover {
-  background-color: #555;
-  color: white;
-} */
 
 .icons {
   font-size: 2.2em;
