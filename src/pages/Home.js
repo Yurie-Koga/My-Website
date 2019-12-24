@@ -1,18 +1,21 @@
 import React from "react";
 import IconLink from "../components/IconLink";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 
 export default function HomePage() {
   return (
     <div className="container">
-      <div class="image" style={{ textAlign: "center" }}>
-        <div class="text">
-          <h1 style={{ fontSize: "50px" }}>Yurie Koga</h1>
-          <p>Energetic Software Developer</p>
-          <IconLink IconName="LinkedIn" />
-          <IconLink IconName="GitHub" />
+      <section>
+        <div class="image" style={{ textAlign: "center" }}>
+          <div class="text">
+            <h1 style={{ fontSize: "50px" }}>Yurie Koga</h1>
+            <p>Energetic Software Developer</p>
+            <IconLink IconName="LinkedIn" />
+            <IconLink IconName="GitHub" />
+          </div>
         </div>
-      </div>
+      </section>
 
       <section>
         <div class="contentTitle">
@@ -33,26 +36,9 @@ export default function HomePage() {
         </div>
 
         <div class="content">
-          <div class="project">
-            <article>
-              <h1>Project1</h1>
-              <p>bla bla bla</p>
-            </article>
-          </div>
-
-          <div class="project">
-            <article>
-              <h1>Project2</h1>
-              <p>bla bla bla</p>
-            </article>
-          </div>
-
-          <div class="project">
-            <article>
-              <h1>Project3</h1>
-              <p>bla bla bla</p>
-            </article>
-          </div>
+          <Projects ProjectName="Project 1" />
+          <Projects ProjectName="Project 2" />
+          <Projects ProjectName="Project 3" />
         </div>
       </section>
     </div>
