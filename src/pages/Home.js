@@ -35,10 +35,16 @@ export default function HomePage() {
           <h1>CONTRIBUTED PROJECTS</h1>
         </div>
 
-        <div class="content">
-          <Projects ProjectName="Project 1" />
-          <Projects ProjectName="Project 2" />
-          <Projects ProjectName="Project 3" />
+        <div class="project-content">
+          <div data-aos="fade-right">
+            <Projects ProjectName="Project 1" />
+          </div>
+          <div data-aos="fade-left">
+            <Projects ProjectName="Project 2" />
+          </div>
+          <div data-aos="fade-right">
+            <Projects ProjectName="Project 3" />
+          </div>
         </div>
       </section>
     </div>

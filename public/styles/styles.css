@@ -10,6 +10,11 @@ html {
   background-color: white;
 }
 
+:root {
+  /* default id: 1 */
+  --imageUrl: url("https://picsum.photos/id/1/300");
+}
+
 /* NavBar */
 .header {
   overflow: hidden;
@@ -173,7 +178,8 @@ html {
 
 .flip-card-front {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://picsum.photos/300");
+    var(--imageUrl);
+  /* url("https://picsum.photos/300") */
   background-color: #bbb;
 }
 
@@ -183,13 +189,28 @@ html {
 }
 
 /* Projects */
+.project-content {
+  margin-bottom: 30px;
+}
+
 .project {
   background-color: transparent;
   width: 300px;
   height: 300px;
   text-align: center;
-  float: left;
+  /* float: left; */
+  margin: auto;
   border: 1px solid gray;
+  color: white;
+}
+
+.project-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--imageUrl);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #bbb;
 }
 
 /* BlogPage */

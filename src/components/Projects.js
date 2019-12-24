@@ -30,9 +30,11 @@ function Projects({ ProjectName }) {
   const project = Projects.find(v => v.name === String(ProjectName));
   let list = [];
   for (let i in project.description) list.push(<p>{project.description[i]}</p>);
+  let imageId = Math.floor(Math.random() * 1000);
+  let imageUrl = "url(https://picsum.photos/id/" + imageId + "/300)";
 
   return (
-    <div class="project">
+    <div class="project project-image" style={{ "--imageUrl": imageUrl }}>
       <article>
         <h1>{project.name}</h1>
         {list}

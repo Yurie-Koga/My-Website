@@ -27,11 +27,13 @@ function Skills({ SkillName }) {
   const skill = Skills.find(v => v.category === String(SkillName));
   let list = [];
   for (let i in skill.name) list.push(<p>{skill.name[i]}</p>);
+  let imageId = Math.floor(Math.random() * 1000);
+  let imageUrl = "url(https://picsum.photos/id/" + imageId + "/300)";
 
   return (
     <div class="flip-card">
       <div class="flip-card-inner">
-        <div class="flip-card-front">
+        <div class="flip-card-front" style={{ "--imageUrl": imageUrl }}>
           <h1>{skill.category}</h1>
         </div>
 
