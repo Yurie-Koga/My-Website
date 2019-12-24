@@ -1,4 +1,5 @@
 import React from "react";
+import IconLink from "../components/IconLink";
 
 export default function ContactPage() {
   return (
@@ -16,20 +17,8 @@ export default function ContactPage() {
           <h1>Contact</h1>
           <p>If you have questions, I have answers.</p>
           <p>BC, Canada</p>
-          <a
-            href="https://www.linkedin.com/in/yurie-koga-977700188/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fab fa-linkedin icons"></i>
-          </a>
-          <a
-            href="https://github.com/Yurie-Koga"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fab fa-github icons"></i>
-          </a>
+          <IconLink IconName="LinkedIn" />
+          <IconLink IconName="GitHub" />
         </div>
       </div>
 

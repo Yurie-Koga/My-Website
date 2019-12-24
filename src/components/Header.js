@@ -117,7 +117,7 @@ import { NavLink } from "react-router-dom";
 export default function Header() {
   return (
     <header class="header">
-      <nav class="topnav" activeClassName="active">
+      <nav class="topnav" activeclassname="active">
         <NavLink exact to="/">
           Home
         </NavLink>
