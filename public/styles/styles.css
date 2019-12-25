@@ -49,6 +49,11 @@ html {
   color: black;
 }
 
+.topnav a:focus {
+  background-color: #209cee;
+  color: white;
+}
+
 /* .topnavBtn {
   float: left;
   color: #f2f2f2;
@@ -235,13 +240,6 @@ html {
   background-size: cover;
 }
 
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
-
 .text-contact {
   top: 400px;
 }
@@ -282,4 +280,17 @@ html {
 .footerCopyRight {
   text-align: center;
   color: white;
+}
+
+/* for specific screen size */
+@media only screen and (max-width: 600px) {
+  .text-contact {
+    width: 210px;
+  }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
