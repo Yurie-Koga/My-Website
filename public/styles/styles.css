@@ -8,6 +8,7 @@ html {
 
 #root {
   background-color: white;
+  overflow-x: hidden;
 }
 
 :root {

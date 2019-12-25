@@ -6,7 +6,7 @@ import Blogs from "../components/Blogs";
 
 export default function HomePage() {
   return (
-    <div className="container">
+    <div>
       <section>
         <div class="image" style={{ textAlign: "center" }}>
           <div class="text">
