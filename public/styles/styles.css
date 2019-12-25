@@ -11,8 +11,8 @@ html {
 }
 
 :root {
-  /* default id: 1 */
-  --imageUrl: url("https://picsum.photos/id/1/300");
+  /* default */
+  --imageUrl: url("/images/default.jpg");
 }
 
 /* NavBar */
@@ -97,6 +97,7 @@ html {
   /* white-space: nowrap; */
   /* too much extra space */
   /* display: inline-block;   */
+  width: 100%;
 }
 .toptext {
   /* text-align: center; */
