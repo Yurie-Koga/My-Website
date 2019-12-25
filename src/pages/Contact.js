@@ -3,7 +3,7 @@ import IconLink from "../components/IconLink";
 
 export default function ContactPage() {
   return (
-    <div className="container">
+    <div>
       <div class="parallax">
         <div class="text text-contact">
           <h1>Thank you for visiting!</h1>

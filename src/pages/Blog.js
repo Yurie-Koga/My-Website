@@ -1,22 +1,24 @@
 import React from "react";
+import Blogs from "../components/Blogs";
 
 export default function BlogPage() {
   return (
-    <div className="container">
-      <div class="parallax">
+    <div>
+      {/* <div class="parallax">
         <div class="text">
           <h1>Coming soon...</h1>
         </div>
-      </div>
-
-      {/* <div
-        style={{ height: "300px", backgroundColor: "white", fontSize: "36px" }}
-      >
-        This div is just here to enable scrolling. Tip: Try to remove the
-        background-attachment property to remove the scrolling effect.
       </div> */}
 
-      {/* <div class="parallax"></div> */}
+      {/* <div class="coverImage" style={{ height: "900px" }}>
+        
+      </div> */}
+
+      <div class="blog-contentPage">
+        <Blogs />
+      </div>
+
+      <div class="parallax"></div>
     </div>
   );
 }

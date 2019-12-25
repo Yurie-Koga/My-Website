@@ -34,7 +34,10 @@ function Projects({ ProjectName }) {
   let imageUrl = "url(https://picsum.photos/id/" + imageId + "/300)";
 
   return (
-    <div class="project project-image" style={{ "--imageUrl": imageUrl }}>
+    <div
+      class="project project-image rounded"
+      style={{ "--imageUrl": imageUrl }}
+    >
       <article>
         <h1>{project.name}</h1>
         {list}
