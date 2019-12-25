@@ -2,6 +2,7 @@ import React from "react";
 import IconLink from "../components/IconLink";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import SimpleSlider from "../components/Blogs";
 
 export default function HomePage() {
   return (
@@ -22,7 +23,7 @@ export default function HomePage() {
           <h1>ABOUT ME</h1>
         </div>
 
-        <div class="content">
+        <div class="skill-content">
           <Skills SkillName="LANGUAGES" />
           <Skills SkillName="FRAMEWORKS" />
           <Skills SkillName="DATABASES" />
@@ -45,6 +46,15 @@ export default function HomePage() {
           <div data-aos="fade-right">
             <Projects ProjectName="Project 3" />
           </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="contentTitle">
+          <h1>BLOGS</h1>
+        </div>
+        <div class="blog-content">
+          <SimpleSlider />
         </div>
       </section>
     </div>
