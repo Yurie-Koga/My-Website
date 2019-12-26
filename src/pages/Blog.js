@@ -1,5 +1,6 @@
 import React from "react";
 import Blogs from "../components/Blogs";
+import Articles from "../components/Articles";
 
 export default function BlogPage() {
   return (
@@ -8,7 +9,9 @@ export default function BlogPage() {
         <Blogs />
       </div>
 
-      <div class="parallax"></div>
+      <div class="parallax">
+        <Articles />
+      </div>
     </div>
   );
 }
