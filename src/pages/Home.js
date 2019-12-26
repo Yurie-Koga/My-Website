@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <div>
       <section>
-        <div class="image" style={{ textAlign: "center" }}>
+        <div class="pageTop image" style={{ textAlign: "center" }}>
           <div class="text">
             <h1 style={{ fontSize: "50px" }}>Yurie Koga</h1>
             <p>Energetic Software Developer</p>

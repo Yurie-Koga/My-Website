@@ -4,7 +4,7 @@ export default function Blogs2() {
   return (
     <div
       id="carouselExampleIndicators"
-      class="carousel slide"
+      class="pageTop carousel slide"
       data-ride="carousel"
     >
       <ol class="carousel-indicators">
