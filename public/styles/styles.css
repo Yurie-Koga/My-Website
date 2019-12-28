@@ -71,31 +71,6 @@ h1 {
   color: white;
 }
 
-/* .topnavBtn {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
-  border: none;
-  outline: none;
-
-  background-color: transparent;
-  cursor: pointer;
-} */
-
-/* .topnavBtn:hover {
-  background-color: #ddd;
-  color: black;
-} */
-
-/* .topnav a.active {
-  background-color: #4caf50;
-  color: white;
-} */
-
 /* HomePage */
 .image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
