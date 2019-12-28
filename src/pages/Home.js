@@ -10,7 +10,9 @@ export default function HomePage() {
       <section>
         <div class="pageTop image" style={{ textAlign: "center" }}>
           <div class="text">
-            <h1 style={{ fontSize: "50px" }}>Yurie Koga</h1>
+            <h1 className="myName" style={{ fontSize: "50px" }}>
+              Yurie Koga
+            </h1>
             <p>Energetic Software Developer</p>
             <IconLink IconName="LinkedIn" />
             <IconLink IconName="GitHub" />
@@ -20,20 +22,20 @@ export default function HomePage() {
 
       <section>
         <div class="contentTitle">
-          <h1>ABOUT ME</h1>
+          <h1>About Me</h1>
         </div>
 
         <div class="skill-content">
-          <Skills SkillName="LANGUAGES" />
-          <Skills SkillName="FRAMEWORKS" />
-          <Skills SkillName="DATABASES" />
-          <Skills SkillName="TECHNOLOGIES" />
+          <Skills SkillName="Languages" />
+          <Skills SkillName="Frameworks" />
+          <Skills SkillName="Databases" />
+          <Skills SkillName="Technologies" />
         </div>
       </section>
 
       <section>
         <div class="contentTitle">
-          <h1>CONTRIBUTED PROJECTS</h1>
+          <h1>Contributed Projects</h1>
         </div>
 
         <div class="project-content">
@@ -51,7 +53,7 @@ export default function HomePage() {
 
       <section>
         <div class="contentTitle">
-          <h1>BLOGS</h1>
+          <h1>Blogs</h1>
         </div>
         <div class="blog-content">
           <Blogs />

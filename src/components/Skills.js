@@ -3,16 +3,19 @@ import React from "react";
 function Skills({ SkillName }) {
   const Skills = [
     {
-      category: "LANGUAGES",
+      category: "Languages",
       name: ["C#", "JavaScript", "Java", "Python", "VB.NET", "VBScript"]
     },
     {
-      category: "FRAMEWORKS",
+      category: "Frameworks",
       name: [".NET", "React", "Node.js", "Jest", "ASP"]
     },
-    { category: "DATABASES", name: ["Oracle", "SQL Server"] },
     {
-      category: "TECHNOLOGIES",
+      category: "Databases",
+      name: ["Oracle", "SQL Server"]
+    },
+    {
+      category: "Technologies",
       name: [
         "Visual Studio",
         "AWS (Amazon Web Services)",
