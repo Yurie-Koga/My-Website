@@ -9,7 +9,7 @@ export default function BlogPage() {
         <Blogs />
       </div>
 
-      <div class="parallax">
+      <div class="parallax" style={{ height: "2000px" }}>
         <Articles />
       </div>
     </div>
