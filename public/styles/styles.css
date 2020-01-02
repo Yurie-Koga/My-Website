@@ -24,7 +24,7 @@ h1 {
   --imageUrl: url("/images/default.jpg");
 }
 
-/* NavBar */
+/* ========== NavBar ========== */
 .header {
   overflow: hidden;
   background-color: #333;
@@ -71,7 +71,7 @@ h1 {
   color: white;
 }
 
-/* HomePage */
+/* ========== HomePage ========== */
 .image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/images/beach.jpg");
@@ -124,7 +124,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* Skills */
+/* ========== Skills ========== */
 .skill-content {
   flex-direction: row;
   flex-wrap: wrap;
@@ -139,6 +139,20 @@ h1 {
   margin-bottom: 30px;
 }
 
+/* Skills List */
+.flexBox-skillList {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--imageUrl);
+  background-color: #bbb;
+  color: white;
+}
+
+/* Skills Flip */
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -187,7 +201,7 @@ h1 {
   transform: rotateY(180deg);
 }
 
-/* Projects */
+/* ========== Projects ========== */
 .project-content {
   margin-bottom: 30px;
 }
@@ -212,7 +226,7 @@ h1 {
   background-color: #bbb;
 }
 
-/* Blog Slides */
+/* ========== Blog Slides ========== */
 .blog-content {
   text-align: center;
   width: 70%;
@@ -231,7 +245,7 @@ h1 {
   background-color: #bbb;
 }
 
-/* BlogPage */
+/* ========== BlogPage ========== */
 .parallax {
   background-image: url("/images/beach.jpg");
 
@@ -271,7 +285,7 @@ h1 {
   color: white;
 }
 
-/* Articles */
+/* ========== Articles ========== */
 .article-content {
   padding-top: 30px;
   margin-bottom: 30px;
@@ -299,7 +313,7 @@ h1 {
   background-color: #bbb;
 }
 
-/* Footer */
+/* ========== Footer ========== */
 .footer {
   overflow: hidden;
   background-color: #333;

@@ -1,6 +1,6 @@
 import React from "react";
 import IconLink from "../components/IconLink";
-import SkillsFlip from "../components/SkillsFlip";
+import SkillsList from "../components/SkillsList";
 import Projects from "../components/Projects";
 import Blogs from "../components/Blogs";
 
@@ -26,10 +26,10 @@ export default function HomePage() {
         </div>
 
         <div className="skill-content">
-          <SkillsFlip SkillName="Languages" />
-          <SkillsFlip SkillName="Frameworks" />
-          <SkillsFlip SkillName="Databases" />
-          <SkillsFlip SkillName="Technologies" />
+          <SkillsList SkillName="Languages" />
+          <SkillsList SkillName="Frameworks" />
+          <SkillsList SkillName="Databases" />
+          <SkillsList SkillName="Technologies" />
         </div>
       </section>
 
