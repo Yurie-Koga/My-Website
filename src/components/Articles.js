@@ -23,9 +23,9 @@ function Articles() {
   let imageUrl = "url(https://picsum.photos/id/" + imageId + "/300)";
 
   return (
-    <div class="article-content">
+    <div className="article-content">
       <div
-        class="article article-image rounded"
+        className="article article-image rounded"
         style={{ "--imageUrl": imageUrl, width: "200px" }}
       >
         <article>
@@ -35,7 +35,7 @@ function Articles() {
       </div>
 
       <div
-        class="article article-image rounded"
+        className="article article-image rounded"
         style={{ "--imageUrl": imageUrl, width: "200px" }}
       >
         <article>
@@ -45,7 +45,7 @@ function Articles() {
       </div>
 
       <div
-        class="article article-image rounded"
+        className="article article-image rounded"
         style={{ "--imageUrl": imageUrl, width: "200px" }}
       >
         <article>

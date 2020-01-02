@@ -8,8 +8,8 @@ export default function HomePage() {
   return (
     <div>
       <section>
-        <div class="pageTop image" style={{ textAlign: "center" }}>
-          <div class="text">
+        <div className="pageTop image" style={{ textAlign: "center" }}>
+          <div className="text">
             <h1 className="myName" style={{ fontSize: "50px" }}>
               Yurie Koga
             </h1>
@@ -21,11 +21,11 @@ export default function HomePage() {
       </section>
 
       <section>
-        <div class="contentTitle">
+        <div className="contentTitle">
           <h1>About Me</h1>
         </div>
 
-        <div class="skill-content">
+        <div className="skill-content">
           <Skills SkillName="Languages" />
           <Skills SkillName="Frameworks" />
           <Skills SkillName="Databases" />
@@ -34,11 +34,11 @@ export default function HomePage() {
       </section>
 
       <section>
-        <div class="contentTitle">
+        <div className="contentTitle">
           <h1>Contributed Projects</h1>
         </div>
 
-        <div class="project-content">
+        <div className="project-content">
           <div data-aos="fade-right">
             <Projects ProjectName="Project 1" />
           </div>
@@ -52,10 +52,10 @@ export default function HomePage() {
       </section>
 
       <section>
-        <div class="contentTitle">
+        <div className="contentTitle">
           <h1>Blogs</h1>
         </div>
-        <div class="blog-content">
+        <div className="blog-content">
           <Blogs />
         </div>
       </section>

@@ -35,7 +35,7 @@ function Projects({ ProjectName }) {
 
   return (
     <div
-      class="project project-image rounded"
+      className="project project-image rounded"
       style={{ "--imageUrl": imageUrl }}
     >
       <article>

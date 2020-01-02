@@ -4,15 +4,15 @@ import IconLink from "../components/IconLink";
 export default function ContactPage() {
   return (
     <div>
-      <div class="parallax">
-        <div class="text text-contact">
+      <div className="parallax">
+        <div className="text text-contact">
           <h1>Thank you for visiting!</h1>
           <h1>Did you enjoy my website?</h1>
         </div>
       </div>
 
-      <div class="coverImage">
-        <div class="coverText">
+      <div className="coverImage">
+        <div className="coverText">
           <h1>Contact</h1>
           <p>If you have questions, I have answers.</p>
           <p>I would love to hear from you!</p>
@@ -22,7 +22,7 @@ export default function ContactPage() {
         </div>
       </div>
 
-      <div class="parallax"></div>
+      <div className="parallax"></div>
     </div>
   );
 }

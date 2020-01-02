@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer class="footer">
-      <p class="footerCopyRight">
+    <footer className="footer">
+      <p className="footerCopyRight">
         <small>
           &copy; 2019 <span className="myName"> Yurie Koga </span> All rights
           reserved.

@@ -34,13 +34,13 @@ function Skills({ SkillName }) {
   let imageUrl = "url(https://picsum.photos/300?random=" + randomNum + ")";
 
   return (
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front" style={{ "--imageUrl": imageUrl }}>
+    <div className="flip-card">
+      <div className="flip-card-inner">
+        <div className="flip-card-front" style={{ "--imageUrl": imageUrl }}>
           <h1>{skill.category}</h1>
         </div>
 
-        <div class="flip-card-back">
+        <div className="flip-card-back">
           <h1>{skill.category}</h1>
           {list}
         </div>

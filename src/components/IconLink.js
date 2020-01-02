@@ -17,7 +17,7 @@ function IconLink({ IconName }) {
 
   return (
     <a href={data.url} target="_blank" rel="noopener noreferrer">
-      <i class={data.icon}></i>
+      <i className={data.icon}></i>
     </a>
   );
 }
