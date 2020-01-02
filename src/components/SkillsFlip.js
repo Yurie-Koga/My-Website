@@ -1,6 +1,6 @@
 import React from "react";
 
-function Skills({ SkillName }) {
+function SkillsFlip({ SkillName }) {
   const Skills = [
     {
       category: "Languages",
@@ -8,7 +8,7 @@ function Skills({ SkillName }) {
     },
     {
       category: "Frameworks",
-      name: [".NET", "React", "Node.js", "Jest", "ASP"]
+      name: [".NET", "React", "Node.js", "Jest", "ASP.NET"]
     },
     {
       category: "Databases",
@@ -49,4 +49,4 @@ function Skills({ SkillName }) {
   );
 }
 
-export default Skills;
+export default SkillsFlip;
