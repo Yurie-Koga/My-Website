@@ -126,23 +126,18 @@ h1 {
 
 /* ========== Skills ========== */
 .skill-content {
-  flex-direction: row;
-  flex-wrap: wrap;
-  display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: center;
+  flex-flow: row wrap;
   justify-content: center;
-  -webkit-align-items: stretch;
   align-items: center;
   text-align: center;
-  /* margin-top: 20px; */
   margin-bottom: 30px;
 }
 
 /* Skills List */
 .flexBox-skillList {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   align-items: center;
   width: 300px;
   height: 300px;

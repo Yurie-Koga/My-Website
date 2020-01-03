@@ -39,15 +39,6 @@ function SkillsList({ SkillName }) {
         <h1>{skill.category}</h1>
         {list}
       </div>
-
-      {/* <div style={{ display: "flex" }}>
-        <div>
-          <h1>{skill.category}</h1>
-        </div>
-      </div>
-      <div style={{ display: "flex" }}>
-        <div>{list}</div>
-      </div> */}
     </div>
   );
 }
