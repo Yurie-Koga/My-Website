@@ -4,25 +4,45 @@ function Projects({ ProjectName }) {
   const Projects = [
     {
       name: "Project 1",
+      displayName: "Integration of Legacy Web Apps",
       description: [
-        "Led the development of a web system for connecting two main web systems in this company which were used for analyzing production or machine data",
-        "Defined requirements, designed(system and database), implemented and tested",
-        "Wrote architecture documents"
+        "Functions: Manage product data and process status and share them with HQ to manage external client’s order.",
+        "Front-end: JavaScript, VBScript, HTML, CSS, SQL",
+        "Back-end: VB.NET, SQL - Run console app by task scheduler to import data from HQ (CSV, spread by comma, fixed data length) to internal DB",
+        "Database: MS SQL server, ADO access"
       ]
     },
     {
       name: "Project 2",
+      displayName: "Data Analyzing Apps",
       description: [
-        "Developed internal software for 100+ employees in Windows environment for managing the budget in departments to manage the money in a fast-paced environment",
-        "Created new solutions to share knowledge and patents about production between each department"
+        "Functions: Analyzing production or machine data to improve yields of production using charts, output reports for external client.",
+        "Environment: C#, VB.NET, .NET"
       ]
     },
     {
       name: "Project 3",
+      displayName: "Budget Management App",
       description: [
-        "Developed and tested programs for customized systems such as for sales, stocks and employees management",
-        "Contributed refactoring systems from VB6 to VB.NET",
-        "Fixed various bugs and improved stability and accuracy"
+        "Functions: Managing the budget in departments in a fast-paced environment.",
+        "Environment: C#, .NET, Oracle Database"
+      ]
+    },
+    {
+      name: "Project 4",
+      displayName: "Share Patent / Knowledge Apps",
+      description: [
+        "Functions: Upload and search data about patens and knowledge of products. Search by key words or detail information, display thumbnails of images, manage meeting records.",
+        "Environment: C#, .NET, Oracle Database"
+      ]
+    },
+    {
+      name: "Project 5",
+      displayName: "Refactoring Legacy Systems",
+      description: [
+        "Systems: Customized for each external client.",
+        "Functions: Manage sales, stocks and employees data.",
+        "Environment: VB.NET, .NET, Oracle Database"
       ]
     }
   ];
@@ -34,14 +54,12 @@ function Projects({ ProjectName }) {
   let imageUrl = "url(https://picsum.photos/300?random=" + randomNum + ")";
 
   return (
-    <div
-      className="project project-image rounded"
-      style={{ "--imageUrl": imageUrl }}
-    >
-      <article>
-        <h1>{project.name}</h1>
-        {list}
-      </article>
+    <div className="project">
+      <div className="project-title rounded" style={{ "--imageUrl": imageUrl }}>
+        <h1>{project.displayName}</h1>
+      </div>
+
+      <article className="project-article">{list}</article>
     </div>
   );
 }

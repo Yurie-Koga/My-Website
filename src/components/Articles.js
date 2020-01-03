@@ -26,7 +26,7 @@ function Articles() {
     <div className="article-content">
       <div
         className="article article-image rounded"
-        style={{ "--imageUrl": imageUrl, width: "200px" }}
+        style={{ "--imageUrl": imageUrl }}
       >
         <article>
           <h1>{Articles[0].title}</h1>
@@ -36,7 +36,7 @@ function Articles() {
 
       <div
         className="article article-image rounded"
-        style={{ "--imageUrl": imageUrl, width: "200px" }}
+        style={{ "--imageUrl": imageUrl }}
       >
         <article>
           <h1>{Articles[1].title}</h1>
@@ -46,7 +46,7 @@ function Articles() {
 
       <div
         className="article article-image rounded"
-        style={{ "--imageUrl": imageUrl, width: "200px" }}
+        style={{ "--imageUrl": imageUrl }}
       >
         <article>
           <h1>{Articles[2].title}</h1>

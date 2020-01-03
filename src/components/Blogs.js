@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Blogs2() {
+export default function Blogs() {
   return (
     <div
       id="carouselExampleIndicators"

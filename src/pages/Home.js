@@ -48,6 +48,12 @@ export default function HomePage() {
           <div data-aos="fade-right">
             <Projects ProjectName="Project 3" />
           </div>
+          <div data-aos="fade-left">
+            <Projects ProjectName="Project 4" />
+          </div>
+          <div data-aos="fade-right">
+            <Projects ProjectName="Project 5" />
+          </div>
         </div>
       </section>
 

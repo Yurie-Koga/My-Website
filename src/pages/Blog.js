@@ -5,11 +5,19 @@ import Articles from "../components/Articles";
 export default function BlogPage() {
   return (
     <div>
-      <div className="blog-contentPage">
-        <Blogs />
-      </div>
+      <section style={{ position: "relative" }}>
+        <div
+          className="blog-contentPage"
+          style={{ position: "relative", top: "53px", marginBottom: "53px" }}
+        >
+          <Blogs />
+        </div>
+      </section>
 
-      <div className="parallax" style={{ height: "2000px" }}>
+      <div
+        className="parallax"
+        style={{ position: "relative", height: "auto", minHeight: "485px" }}
+      >
         <Articles />
       </div>
     </div>
