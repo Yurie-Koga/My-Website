@@ -203,13 +203,14 @@ h1 {
 
 .project {
   background-color: transparent;
-  width: 80%;
-  height: 300px;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
   text-align: center;
-  /* float: left; */
   margin: 0 auto 30px auto;
   border: 1px solid gray;
   color: white;
+  padding: 5px 10px 0 10px;
 }
 
 .project-image {
@@ -224,7 +225,8 @@ h1 {
 /* ========== Blog Slides ========== */
 .blog-content {
   text-align: center;
-  width: 70%;
+  width: 90%;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
