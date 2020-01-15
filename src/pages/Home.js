@@ -2,7 +2,6 @@ import React from "react";
 import IconLink from "../components/IconLink";
 import SkillsList from "../components/SkillsList";
 import Projects from "../components/Projects";
-import Blogs from "../components/Blogs";
 
 export default function HomePage() {
   return (
@@ -54,15 +53,6 @@ export default function HomePage() {
           <div data-aos="fade-right">
             <Projects ProjectName="Project 5" />
           </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="contentTitle">
-          <h1>Blogs</h1>
-        </div>
-        <div className="blog-content">
-          <Blogs />
         </div>
       </section>
     </div>
