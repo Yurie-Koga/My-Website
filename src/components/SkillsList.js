@@ -8,19 +8,18 @@ function SkillsList({ SkillName }) {
     },
     {
       category: "Frameworks",
-      name: [".NET", "React", "Node.js", "Jest", "ASP.NET"]
+      name: [".NET", "React", "Node.js", "Express.js", "Jest", "ASP.NET"]
     },
     {
       category: "Databases",
-      name: ["Oracle", "SQL Server"]
+      name: ["Oracle", "SQL Server", "SQLite3"]
     },
     {
       category: "Technologies",
       name: [
         "Visual Studio",
-        "AWS (Amazon Web Services)",
+        "AWS (S3, Route 53)",
         "Cypress",
-        "Docker",
         "Oracle Enterprise Manager",
         "SQL Server Management Studio"
       ]

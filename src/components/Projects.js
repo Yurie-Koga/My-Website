@@ -6,8 +6,8 @@ function Projects({ ProjectName }) {
       name: "Project 1",
       displayName: "Integration of Legacy Web Apps",
       description: [
-        "Functions: Manage product data and process status and share them with HQ to manage external client’s order.",
-        "Front-end: JavaScript, VBScript, HTML, CSS, SQL",
+        "Functions: Manage product data, process status, and inventories and share them with HQ to manage external client’s order.",
+        "Front-end: JavaScript, VBScript, HTML, CSS, ASP, SQL",
         "Back-end: VB.NET, SQL - Run console app by task scheduler to import data from HQ (CSV, spread by comma, fixed data length) to internal DB",
         "Database: MS SQL server, ADO access"
       ]
@@ -16,7 +16,7 @@ function Projects({ ProjectName }) {
       name: "Project 2",
       displayName: "Data Analyzing Apps",
       description: [
-        "Functions: Analyzing production or machine data to improve yields of production using charts, output reports for external client.",
+        "Functions: Analyzing product and machine data to find root causes and improve yields of production using charts (bar/line/pie/etc.) and numeric filters, and output reports for external clients.",
         "Environment: C#, VB.NET, .NET"
       ]
     },
@@ -24,7 +24,7 @@ function Projects({ ProjectName }) {
       name: "Project 3",
       displayName: "Budget Management App",
       description: [
-        "Functions: Managing the budget in departments in a fast-paced environment.",
+        "Functions: Manage budgets in departments in a fast-paced environment. Import actual expense data from HQ system data file, and upload estimate budget data every month. Provide statistical graphs as PDF.",
         "Environment: C#, .NET, Oracle Database"
       ]
     },
@@ -32,7 +32,7 @@ function Projects({ ProjectName }) {
       name: "Project 4",
       displayName: "Share Patent / Knowledge Apps",
       description: [
-        "Functions: Upload and search data about patens and knowledge of products. Search by key words or detail information, display thumbnails of images, manage meeting records.",
+        "Functions: Upload and search data about patents and knowledge of products to share between departments. Search by key words or detail information, display thumbnails of images from PDF that users uploaded, manage meeting records to review and discuss about each proposition.",
         "Environment: C#, .NET, Oracle Database"
       ]
     },
@@ -40,8 +40,8 @@ function Projects({ ProjectName }) {
       name: "Project 5",
       displayName: "Refactoring Legacy Systems",
       description: [
-        "Systems: Customized for each external client.",
-        "Functions: Manage sales, stocks and employees data.",
+        "Systems: Customized for each external client, provided packaged software with server/client hardware.",
+        "Functions: Manage sales, inventories, employees, and billing data.",
         "Environment: VB.NET, .NET, Oracle Database"
       ]
     }
